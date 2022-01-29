@@ -1,1 +1,7 @@
-export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
+export const WIN_MESSAGES = [
+  'Complimenti!',
+  'Ben Fatto!',
+  'Perfetto!',
+  'Ottimo risultato!',
+  'TA DAAAN!',
+]
