@@ -7,22 +7,33 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Informazioni" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
-        This is an open source clone of the game Wordle -{' '}
-        <a
-          href="https://github.com/hannahcode/wordle"
-          className="underline font-bold"
-        >
-          check out the code here
-        </a>{' '}
-        and{' '}
+        Questa è la versione italiana di{' '}
         <a
           href="https://www.powerlanguage.co.uk/wordle/"
           className="underline font-bold"
         >
-          play the original here
+          Wordle{' '}
         </a>
+        - basato sul codice del clone{' '}
+        <a
+          href="https://github.com/hannahcode/wordle"
+          className="underline font-bold"
+        >
+          scritto da Hanna Park.
+        </a>
+        <br></br>
+        La lista delle parole disponibili è basata sulla lista di frequenza
+        delle parole italiane con cinque lettere. <br></br>
+        Gioca all'originale (EN){' '}
+        <a
+          href="https://www.powerlanguage.co.uk/wordle/"
+          className="underline font-bold"
+        >
+          qui
+        </a>
+        .
       </p>
     </BaseModal>
   )
